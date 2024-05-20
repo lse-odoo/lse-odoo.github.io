@@ -7,6 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Odoo Knowledge (lse)'
+html_title = project  # https://pradyunsg.me/furo/customisation/sidebar-title/#changing-sidebar-title
 copyright = '2024, lse-odoo'
 author = 'lse-odoo'
 release = '0.1'
@@ -24,5 +25,5 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'furo'
 html_static_path = ['_static']
