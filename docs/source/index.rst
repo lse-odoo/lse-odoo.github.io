@@ -1,10 +1,10 @@
-.. lse-odoo-knowledge documentation master file, created by
-   sphinx-quickstart on Sun May 19 13:07:08 2024.
+.. Odoo Knowledge (lse) documentation master file, created by
+   sphinx-quickstart on Mon May 20 21:16:26 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to lse-odoo-knowledge's documentation!
-==============================================
+Welcome to Odoo Knowledge (lse)'s documentation!
+================================================
 
 .. toctree::
    :maxdepth: 2
@@ -18,3 +18,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+LSE TEST

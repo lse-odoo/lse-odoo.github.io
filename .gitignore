@@ -2,6 +2,7 @@
 
 # sphinx build folder
 _build
+docs/build
 
 # Compiled source #
 ###################
