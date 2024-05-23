@@ -7,9 +7,11 @@ Welcome to Odoo Knowledge (lse)'s documentation!
 ================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
+   :glob:
    :caption: Contents:
 
+   iot/index
 
 
 Indices and tables

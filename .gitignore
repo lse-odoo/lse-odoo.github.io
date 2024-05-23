@@ -1,4 +1,5 @@
 .venv
+.github
 
 # sphinx build folder
 _build
