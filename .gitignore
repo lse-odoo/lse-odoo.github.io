@@ -43,3 +43,5 @@ Thumbs.db
 # Editor backup files #
 #######################
 *~
+
+*.pyc

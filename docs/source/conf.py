@@ -1,6 +1,4 @@
-import sys, os
 
-sys.path.append(os.path.abspath('_exts'))
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -18,7 +16,7 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["directive", "sphinx_design"]
+extensions = ["sphinx_design"]
 
 templates_path = ['_templates']
 exclude_patterns = []
