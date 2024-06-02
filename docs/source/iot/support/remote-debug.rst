@@ -2,6 +2,8 @@
 Remote Debugging
 ================
 
+.. tags:: iot box compatible: ✅, virtual iot compatible: ❌
+
 Enabling this feature of your IoT box will allow remote connections to your IoT box.
 Generally use to solve technical issue or troubleshooting.
 

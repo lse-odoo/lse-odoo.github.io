@@ -16,7 +16,10 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx_design"]
+extensions = [
+    "sphinx_design",
+    "sphinx_tags",
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -28,3 +31,19 @@ exclude_patterns = []
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+# -- Options for tags ---------------------------------------------------------
+# https://sphinx-tags.readthedocs.io/en/latest/configuration.html
+
+tags_create_tags = True
+tags_output_dir = 'tags'
+tags_create_badges = True
+tags_page_title = "Tag"
+tags_index_head = "All Tags"
+tags_overview_title = "Site tags"
+tags_badge_colors = {
+    "iot box compatible: ✅": "success",
+    "virtual iot compatible: ✅": "success",
+    "iot box compatible: ❌": "warning",
+    "virtual iot compatible: ❌": "warning",
+}
