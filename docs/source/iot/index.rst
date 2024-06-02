@@ -2,6 +2,6 @@ IoT
 =======
 
 .. toctree::
-    :hidden:
 
     support/index
+    technical/index
