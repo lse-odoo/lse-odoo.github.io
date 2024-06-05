@@ -23,6 +23,7 @@ extensions = [
     "sphinx_tags",
     "sphinx_copybutton",
     "sphinx_sitemap",
+    "sphinxcontrib.googleanalytics",
 ]
 
 templates_path = ['_templates']
@@ -62,3 +63,9 @@ sitemap_excludes = [
     "search.html",
     "genindex.html",
 ]
+
+# -- Options for google analytics ---------------------------------------------
+# https://github.com/sphinx-contrib/googleanalytics/tree/master
+
+googleanalytics_id = 'G-S6QVB2211V'
+googleanalytics_enabled = IS_PRODUCTION_BUILD

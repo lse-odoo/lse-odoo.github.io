@@ -4,3 +4,4 @@ sphinx-copybutton
 sphinx-design
 sphinx-sitemap
 sphinx-tags
+sphinxcontrib-googleanalytics
