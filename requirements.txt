@@ -2,4 +2,5 @@ furo
 sphinx
 sphinx-copybutton
 sphinx-design
+sphinx-sitemap
 sphinx-tags

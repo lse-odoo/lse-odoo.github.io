@@ -1,3 +1,4 @@
+import os
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -21,18 +22,21 @@ extensions = [
     "sphinx_design",
     "sphinx_tags",
     "sphinx_copybutton",
+    "sphinx_sitemap",
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
 
+IS_PRODUCTION_BUILD = os.getenv("GITHUB_ACTIONS") == "true"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'furo'
 html_static_path = ['_static']
+html_baseurl = 'https://lse-odoo.github.io/' if IS_PRODUCTION_BUILD else 'http://127.0.0.1:8000/'
 
 # -- Options for tags ---------------------------------------------------------
 # https://sphinx-tags.readthedocs.io/en/latest/configuration.html
@@ -49,3 +53,12 @@ tags_badge_colors = {
     "iot box incompatible": "warning",
     "virtual iot incompatible": "warning",
 }
+
+# -- Options for sitemap ------------------------------------------------------
+# https://sphinx-sitemap.readthedocs.io/en/latest/getting-started.html
+
+sitemap_url_scheme = "{link}"
+sitemap_excludes = [
+    "search.html",
+    "genindex.html",
+]
