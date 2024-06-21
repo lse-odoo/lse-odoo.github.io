@@ -6,3 +6,4 @@ Technical
     password
     ssh
     structure
+    interaction
