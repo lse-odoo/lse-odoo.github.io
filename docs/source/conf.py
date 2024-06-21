@@ -24,6 +24,7 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_sitemap",
     "sphinxcontrib.googleanalytics",
+    "sphinxcontrib.plantuml",
 ]
 
 templates_path = ['_templates']
