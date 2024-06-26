@@ -7,6 +7,7 @@ Welcome to Odoo Knowledge (lse)'s documentation!
    :caption: Contents:
 
    iot/index
+   pos/index
 
 My name is Loan (known internally in Odoo as LSE) and I'm a software engineer. I'm passionate about technology and I love to share my knowledge with others.
 I have been working in Odoo since October 2019 as a Software Engineer/Technical Support.
