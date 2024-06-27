@@ -36,8 +36,8 @@ Steps
 
 #. Connect to your IoT box homepage (using the link on the IoT app)
 
-    .. image:: /_static/images/iot/21.10/iot-homepage.avif
-        :alt: IoT box homepage
+   .. image:: /_static/images/iot/21.10/iot-homepage.avif
+      :alt: IoT box homepage
 
 #. Click on the `Remote Debug` button
 
@@ -47,13 +47,13 @@ Steps
 
 #. Click on the `Enable Remote Debugging` button
 
-    .. image:: /_static/images/iot/21.10/iot-remote-debugging.avif
-        :alt: Remote Debugging page
+   .. image:: /_static/images/iot/21.10/iot-remote-debugging.avif
+      :alt: Remote Debugging page
 
 #. If you have a text field with `pi user password` and a `Generate password` button, click the button and copy the password generated
 
-    .. image:: /_static/images/iot/24.01/iot-remote-debugging.avif
-        :alt: Remote Debugging page
+   .. image:: /_static/images/iot/24.01/iot-remote-debugging.avif
+      :alt: Remote Debugging page
 
 #. Share the password copied from the previous step with the person who will connect to your IoT box. They will need it to connect to your IoT box
 
