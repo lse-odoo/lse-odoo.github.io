@@ -25,8 +25,7 @@ Steps:
         
 2. Click on the `Remote Debug` button
 3. The `Remote Debuging` page will open
-4. If you have a text field with `pi user password` and a `Generate password` button,
-click it
+4. If you have a text field with `pi user password` and a `Generate password` button, click it
 
     .. image:: /_static/images/iot/24.01/iot-remote-debugging.avif
         :alt: Remote Debugging page

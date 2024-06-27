@@ -30,6 +30,7 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = []
 
+suppress_warnings = ['autosectionlabel.*']  # Avoid "WARNING: duplicate label ..." from autosectionlabel, see: https://github.com/sphinx-doc/sphinx/issues/7697#issuecomment-728781248
 
 IS_PRODUCTION_BUILD = os.getenv("GITHUB_ACTIONS") == "true"
 
