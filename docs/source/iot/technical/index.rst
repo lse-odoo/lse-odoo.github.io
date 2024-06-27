@@ -5,5 +5,5 @@ Technical
 
     password
     ssh
-    structure
+    structure/index
     interaction

@@ -8,3 +8,4 @@ Tag: virtual iot incompatible
     ../iot/support/remote-debug.rst
     ../iot/technical/password.rst
     ../iot/technical/ssh.rst
+    ../iot/technical/structure/structure-iot-box.rst

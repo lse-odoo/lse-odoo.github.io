@@ -6,4 +6,3 @@ Tag: virtual iot compatible
     :caption: With this tag
 
     ../iot/technical/interaction.rst
-    ../iot/technical/structure.rst

@@ -1,18 +1,5 @@
 
-=========
-Structure
-=========
-.. tags:: iot box compatible, virtual iot compatible
-
-
-The structure and the way the code update is complicated with the IoT.
-As it is different for the windows version it will be explained in a different section.
-
-`Odoo's IoT Update documentation <https://www.odoo.com/documentation/17.0/applications/general/iot/config/updating_iot.html>`_
-already covered vaguely the structure of the IoT-box, but I will go more in-depth here.
-
-.. TODO: split into 2 pages, one for virtual iot and other for iot box
-
+===================
 Structure (IoT box)
 ===================
 .. tags:: iot box compatible, virtual iot incompatible
@@ -29,7 +16,7 @@ The structure of the IoT box can be splitted into 3 parts which are related to e
 .. TODO: add a diagram using graphviz rather than svg ? https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html
 
 Image
------
+=====
 The image of the IoT box is the base of the IoT box. 
 It is the image that is flashed on the SD card.  
 
@@ -47,7 +34,7 @@ This image is generated manually when needed. This is done bu running the
 The main element added to the image is what I will call the [**core**](#core)
 
 Core
-----
+====
 
 The "core" is the main part of the image. It is composed of odoo's community code.  
 The core logic of the IoT box is handled by some odoo apps that can not be installed on a standard odoo instance.
@@ -55,7 +42,7 @@ But that are part of the community code. The IoT run odoo in such a way that onl
 Thus, you can't install regular app like Sales, CRM, etc. on the IoT box.
 
 Core Odoo version
-^^^^^^^^^^^^^^^^^
+-----------------
 
 On each IoT image, the core code is pre-installed, the version of odoo code used depends on the image version.
 
@@ -76,9 +63,8 @@ The core odoo code is always pulled from https://github.com/odoo/odoo
 Each time the IoT box started, it checks the odoo version of the database and update the core odoo code to match it if needed.
 In other words, if the synchronised odoo database upgrade, the IoT box will upgrade the core odoo code to match it.
 
-
 Handlers
---------
+========
 
 The "Handlers" regroup both the Interfaces and the Drivers of the IoT box.
 
