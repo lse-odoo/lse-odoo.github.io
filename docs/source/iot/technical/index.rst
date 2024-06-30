@@ -5,5 +5,7 @@ Technical
 
     password
     ssh
-    structure/index
     interaction
+    structure/index
+    troubleshooting
+

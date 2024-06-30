@@ -44,3 +44,5 @@ The response to the request is a JSON object containing all the datas like:
 - etc.
 
 .. TODO: add a section regarding the computation of the receipt index: "Order XXXXX-YYY-ZZZZ"
+
+.. TODO: add section regarding import and export of paid/unpaid orders for troubleshooting customer issues

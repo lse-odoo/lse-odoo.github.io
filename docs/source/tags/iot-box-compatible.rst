@@ -10,3 +10,4 @@ Tag: iot box compatible
     ../iot/technical/password.rst
     ../iot/technical/ssh.rst
     ../iot/technical/structure/structure-iot-box.rst
+    ../iot/technical/troubleshooting.rst
