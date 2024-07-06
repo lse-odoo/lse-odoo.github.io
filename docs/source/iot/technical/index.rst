@@ -7,5 +7,5 @@ Technical
     ssh
     interaction
     structure/index
-    troubleshooting
+    edit/index
 

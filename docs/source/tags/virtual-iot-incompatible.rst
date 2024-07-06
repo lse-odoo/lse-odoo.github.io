@@ -6,6 +6,7 @@ Tag: virtual iot incompatible
     :caption: With this tag
 
     ../iot/support/remote-debug.rst
+    ../iot/technical/edit/edit-core-box.rst
     ../iot/technical/password.rst
     ../iot/technical/ssh.rst
     ../iot/technical/structure/structure-iot-box.rst

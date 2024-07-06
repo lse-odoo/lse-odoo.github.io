@@ -6,8 +6,9 @@ Tag: iot box compatible
     :caption: With this tag
 
     ../iot/support/remote-debug.rst
+    ../iot/technical/edit/edit-core-box.rst
+    ../iot/technical/edit/edit-handler.rst
     ../iot/technical/interaction.rst
     ../iot/technical/password.rst
     ../iot/technical/ssh.rst
     ../iot/technical/structure/structure-iot-box.rst
-    ../iot/technical/troubleshooting.rst
