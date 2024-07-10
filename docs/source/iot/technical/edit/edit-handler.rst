@@ -29,6 +29,8 @@ for example; Odoo online/SAAS/odoo.sh production branch,
 #. Deactivate `Automatic drivers update?`
 #. Modify the handlers code manually, similar to core code modification
 
-   .. seealso:: :doc:`../../technical/edit/edit-core-box`
-   .. seealso:: :doc:`../../technical/edit/edit-core-virtual`
+   .. seealso:: 
+      :doc:`../../technical/edit/edit-core-box`
+      
+      :doc:`../../technical/edit/edit-core-virtual`
 
