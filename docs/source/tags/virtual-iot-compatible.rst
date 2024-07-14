@@ -7,4 +7,5 @@ Tag: virtual iot compatible
 
     ../iot/technical/edit/edit-core-virtual.rst
     ../iot/technical/edit/edit-handler.rst
+    ../iot/technical/interaction-ws.rst
     ../iot/technical/interaction.rst
