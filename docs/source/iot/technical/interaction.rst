@@ -33,4 +33,6 @@ Most of the time, it will be with HTTPS request from the client browser to the I
         odoo -> Cashier: confirmation pop-up
 
 
-Starting `Odoo 17 <https://github.com/odoo/odoo/pull/129164>`_, the IoT team is slowly moving toward websocket usage rather than HTTPS.
+Starting Odoo 17, the IoT team is slowly moving toward websocket usage rather than HTTPS.
+
+.. seealso:: :doc:`/iot/technical/interaction-ws`
