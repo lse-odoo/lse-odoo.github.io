@@ -33,4 +33,3 @@ A message can be sent only from the server to a channel and will be received by 
    IoT -> Server: HTTP request for operation completion
    Server -> Client: confirmation of operation completion
    deactivate Client
-   end note
