@@ -63,17 +63,6 @@ In theory, the issue should persist (as we just asked for more logs).
 If it is the case forward this information to the support service:
 
 #. The exact time when you performed the operation (please precise the timezone)
-#. AND if the printer printed or not. Even if the message appear, it could be a false positive.
+#. AND if the printer printed or not. Even if the message appear, it could be a false positive
 #. AND the logs from the IoT 
-  
-   #. Connect to the Odoo database on which your IoT is connected
-   #. Enable "Developer mode"
-       .. seealso:: `Odoo's Documentation Developer mode <(https://www.odoo.com/documentation/17.0/applications/general/developer_mode.html)>`_
-   #. Go to the IoT app
-   #. Choose the IoT that you are using
-   #. Click the "Download Logs" button on top
-      
-      .. image:: /_static/images/odoo/odoo-iot-form.png
-         :alt: IoT Download Log Button
-
-.. TODO: have a dedicated page on getting IoT logs
+    .. include:: /iot/support/logging/download/from-odoo-server.rst
