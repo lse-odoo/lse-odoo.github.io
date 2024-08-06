@@ -25,4 +25,4 @@ Edit IoT Core Code (IoT Box)
 
    .. code:: console
 
-      $ sudo service odoo restart
+      $ sudo service odoo start
