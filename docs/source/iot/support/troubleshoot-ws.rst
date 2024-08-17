@@ -65,4 +65,4 @@ If it is the case forward this information to the support service:
 #. The exact time when you performed the operation (please precise the timezone)
 #. AND if the printer printed or not. Even if the message appear, it could be a false positive
 #. AND the logs from the IoT 
-    .. include:: /iot/support/logging/download/from-odoo-server.rst
+    .. include:: /iot/support/logging/download/_from-odoo-server.rst
