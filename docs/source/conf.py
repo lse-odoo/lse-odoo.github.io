@@ -71,3 +71,8 @@ sitemap_excludes = [
 
 googleanalytics_id = 'G-S6QVB2211V'
 googleanalytics_enabled = IS_PRODUCTION_BUILD
+
+# -- Options for plantuml -----------------------------------------------------
+# https://github.com/sphinx-contrib/plantuml/blob/master/README.rst#configuration
+plantuml_output_format = 'svg'
+plantuml_syntax_error_image = not IS_PRODUCTION_BUILD
