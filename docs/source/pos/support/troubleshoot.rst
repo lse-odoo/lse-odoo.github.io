@@ -49,10 +49,10 @@ Generating a HAR file with Google Chrome
    - Right-clicking anywhere in the list of network requests and selecting ``Save all as HAR with content``.
    - *OR* Clicking the ``Export HAR`` button |export-har-btn| in the upper right corner of the tab.
 
-   .. image:: /_static/images/other/chrome-download-har.png
+   .. image:: /_static/images/other/chrome-download-har.avif
       :alt: Export HAR screenshot
 
-.. |export-har-btn| image:: /_static/images/other/chrome-download-har-icon.png
+.. |export-har-btn| image:: /_static/images/other/chrome-download-har-icon.avif
    :alt: Export HAR button
 
 #. Save the file to your computer and send it to the support service with the time when the issue occurred (do not forget to mention the timezone).

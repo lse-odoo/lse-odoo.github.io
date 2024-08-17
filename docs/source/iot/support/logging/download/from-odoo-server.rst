@@ -9,5 +9,5 @@ Download IoT Logs from Odoo Server
 #. Choose the IoT that you are using
 #. Click the "Download Logs" button on top
     
-   .. image:: /_static/images/odoo/odoo-iot-form.png
+   .. image:: /_static/images/odoo/odoo-iot-form.avif
       :alt: IoT Download Log Button
