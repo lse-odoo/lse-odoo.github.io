@@ -45,4 +45,28 @@ The response to the request is a JSON object containing all the datas like:
 
 .. TODO: add a section regarding the computation of the receipt index: "Order XXXXX-YYY-ZZZZ"
 
+=====================
+Browser Local Storage
+=====================
+
+As mentioned in the previous section, some PoS datas are stored in the browser memory.
+As this datas are stored in the browser memory. Using another browser or another device will not have access to the datas.
+
+Unpaid Orders
+-------------
+
+When an order is created in the PoS, it is stored in the browser local storage.
+
+.. admonition:: Example of 2 unpaid orders (on a runbot in version 17)
+    :class: tip
+
+    .. figure:: /_static/images/pos/pos-cache-paid-orders.png
+        :alt: Unpaid Orders
+
+        In the bottom right corner, you can see the 2 unpaid orders details in the browser local storage.
+        It contains various informations like the order lines, the customer, the payment method, etc.
+
+It is removed from the cache when the order is validated by the Odoo server.
+
+
 .. TODO: add section regarding import and export of paid/unpaid orders for troubleshooting customer issues
