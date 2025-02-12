@@ -1,7 +1,7 @@
 
-======================
-Websockets Interaction
-======================
+==========
+Websockets
+==========
 
 .. tags:: iot box compatible, virtual iot compatible
 

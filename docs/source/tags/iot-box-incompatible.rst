@@ -1,3 +1,5 @@
+.. _sphx_tag_iot-box-incompatible:
+
 Tag: iot box incompatible
 #########################
 

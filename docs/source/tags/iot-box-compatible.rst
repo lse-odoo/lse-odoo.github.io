@@ -1,3 +1,5 @@
+.. _sphx_tag_iot-box-compatible:
+
 Tag: iot box compatible
 #######################
 
@@ -10,8 +12,8 @@ Tag: iot box compatible
     ../iot/support/remote-debug.rst
     ../iot/technical/edit/edit-core-box.rst
     ../iot/technical/edit/edit-handler.rst
-    ../iot/technical/interaction-ws.rst
-    ../iot/technical/interaction.rst
+    ../iot/technical/interaction/client-polling.rst
+    ../iot/technical/interaction/websocket.rst
     ../iot/technical/password.rst
     ../iot/technical/ssh.rst
     ../iot/technical/structure/structure-iot-box.rst

@@ -1,3 +1,5 @@
+.. _sphx_tag_virtual-iot-compatible:
+
 Tag: virtual iot compatible
 ###########################
 
@@ -9,5 +11,5 @@ Tag: virtual iot compatible
     ../iot/support/logging/download/windows-manually.rst
     ../iot/technical/edit/edit-core-virtual.rst
     ../iot/technical/edit/edit-handler.rst
-    ../iot/technical/interaction-ws.rst
-    ../iot/technical/interaction.rst
+    ../iot/technical/interaction/client-polling.rst
+    ../iot/technical/interaction/websocket.rst

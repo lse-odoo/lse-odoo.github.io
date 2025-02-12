@@ -1,3 +1,5 @@
+.. _sphx_tag_virtual-iot-incompatible:
+
 Tag: virtual iot incompatible
 #############################
 

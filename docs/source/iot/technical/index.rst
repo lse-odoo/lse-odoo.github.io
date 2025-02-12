@@ -5,8 +5,7 @@ Technical
 
     password
     ssh
-    interaction
-    interaction-ws
+    interaction/index
     structure/index
     edit/index
 
