@@ -10,6 +10,7 @@ Tag: iot box compatible
     ../iot/support/logging/download/from-odoo-server.rst
     ../iot/support/logging/download/odoo-logs-iot-box.rst
     ../iot/support/remote-debug.rst
+    ../iot/technical/clock.rst
     ../iot/technical/edit/edit-core-box.rst
     ../iot/technical/edit/edit-handler.rst
     ../iot/technical/interaction/client-polling.rst

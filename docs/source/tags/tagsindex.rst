@@ -9,7 +9,7 @@ Site tags
     :caption: All Tags
     :maxdepth: 1
 
-    iot box compatible (10) <iot-box-compatible.rst>
+    iot box compatible (11) <iot-box-compatible.rst>
     iot box incompatible (2) <iot-box-incompatible.rst>
     virtual iot compatible (6) <virtual-iot-compatible.rst>
-    virtual iot incompatible (6) <virtual-iot-incompatible.rst>
+    virtual iot incompatible (7) <virtual-iot-incompatible.rst>
