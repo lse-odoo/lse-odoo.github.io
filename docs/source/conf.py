@@ -39,6 +39,7 @@ IS_PRODUCTION_BUILD = os.getenv("GITHUB_ACTIONS") == "true"
 
 html_theme = 'furo'
 html_static_path = ['_static']
+html_extra_path = ['files']
 html_baseurl = 'https://lse-odoo.github.io/' if IS_PRODUCTION_BUILD else 'http://127.0.0.1:8000/'
 
 # -- Options for tags ---------------------------------------------------------
