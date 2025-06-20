@@ -42,6 +42,10 @@ html_static_path = ['_static']
 html_extra_path = ['files']
 html_baseurl = 'https://lse-odoo.github.io/' if IS_PRODUCTION_BUILD else 'http://127.0.0.1:8000/'
 
+html_js_files = [
+    ('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4740935949092680', {'async': 'async', 'crossorigin': 'anonymous'}),
+] if IS_PRODUCTION_BUILD else []
+
 # -- Options for tags ---------------------------------------------------------
 # https://sphinx-tags.readthedocs.io/en/latest/configuration.html
 
