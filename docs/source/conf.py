@@ -10,9 +10,11 @@ import os
 
 project = 'Odoo Knowledge (lse)'
 html_title = project  # https://pradyunsg.me/furo/customisation/sidebar-title/#changing-sidebar-title
-copyright = '2024, lse-odoo'
+copyright = '2025, lse-odoo'
 author = 'lse-odoo'
 release = '0.1'
+html_logo = "logo.png"
+html_favicon = '_static/logo-32.png'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
