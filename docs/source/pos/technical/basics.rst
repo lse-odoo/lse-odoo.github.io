@@ -60,7 +60,7 @@ When an order is created in the PoS, it is stored in the browser local storage.
 .. admonition:: Example of 2 unpaid orders (on a runbot in version 17)
     :class: tip
 
-    .. figure:: /_static/images/pos/pos-cache-paid-orders.png
+    .. figure:: /_static/images/pos/pos-cache-paid-orders.avif
         :alt: Unpaid Orders
 
         In the bottom right corner, you can see the 2 unpaid orders details in the browser local storage.

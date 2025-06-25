@@ -19,7 +19,8 @@ Solution Attempt
 .. TODO: have a dedication section to restart IoT as it can be performed on homepage or from IoT app
 Try to restart your IoT, you can use the "Restart Odoo service" button on the top right corner of the IoT home page. 
 
-.. image:: /_static/images/iot/24.01/iot-restart.avif
+
+.. image:: /_static/images/iot/25.04/iot-restart.avif
    :alt: IoT Restart IoT Button
 
 Depending on the case that you have. The issue might already be solved in the latest version of IoT code.
@@ -27,9 +28,7 @@ In particular if you installed it from a long time ago.
 Try to update your IoT code as a first step to see if it solves your issue.
 
 .. seealso::
-    `Odoo's Documentation Windows Virtual IoT update <(https://www.odoo.com/documentation/17.0/applications/general/iot/config/updating_iot.html#windows-iot-update)>`_
-
-    `Odoo's Documentation IoT box update <(https://www.odoo.com/documentation/17.0/applications/general/iot/config/updating_iot.html#update-from-the-iot-box-home-page)>`_
+    `Odoo's Documentation IoT update <(https://www.odoo.com/documentation/18.0/applications/general/iot/iot_advanced/updating_iot.html#image-and-core-code-update)>`_
 
 
 Troubleshoot
@@ -38,21 +37,38 @@ If the issue persist despite the step on the previous section,
 you can send some deeper information to your support service to help them troubleshoot the issue.
 Please follow these steps:
 
-#. Connect to your IoT homepage
-#. Click the "handlers list" button
-#. On "Odoo log level ..." dropdown, change the value to "Debug"
+#. Connect to your IoT homepage (using the link on the IoT app)
 
-   .. image:: /_static/images/iot/24.01/iot-logging-switch-odoo-debug.avif
+   .. image:: /_static/images/iot/25.04/iot-homepage.avif
+      :alt: IoT homepage
+
+#. Click the gears icon button on the top right corner of the page to enable debugger mode
+
+   .. image:: /_static/images/iot/25.04/iot-homepage-debug.avif
+      :alt: IoT homepage
+
+#. Click on the `Log level` button at the bottom of the page
+
+   .. caution::
+      The `Log level` button will only be visible if the IoT is in debug mode.
+      If you do not see it, you need to enable the debug mode first by clicking on the gears icon button.
+
+   .. image:: /_static/images/iot/25.04/iot-logging.avif
+      :alt: IoT homepage
+
+#. On the following dialog, change the value of `iot-logging-odoo` to "Debug"
+
+   .. image:: /_static/images/iot/25.04/iot-logging_odoo_debug.avif
       :alt: IoT change odoo log level to Debug
     
    .. attention::
-      If you let "Odoo log level ..." in debug, this can increase a lot the size of the logs.
+      If you let iot-logging-odoo` in debug, this can increase a lot the size of the logs.
       Feel free to change it back to "Info" or "Warning" once done with troubleshooting.
 
-#. Click the "Update Logs Configuration" button on the bottom to save the change
+#. Click the `Close` button on the bottom right to exit the dialog
 #. Restart the IoT using the "Restart Odoo service" button on the top right corner of the IoT home page.
 
-   .. image:: /_static/images/iot/24.01/iot-restart.avif
+   .. image:: /_static/images/iot/25.04/iot-restart.avif
       :alt: IoT Restart IoT Button
 
 #. Perform again the operation to print the report on odoo's side

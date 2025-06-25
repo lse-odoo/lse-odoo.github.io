@@ -2,7 +2,7 @@
 # Convert all pictures files in _static folder to avif using mogrify
 # This script will skip existing avif files
 if [ -d _static ]; then
-    find . -name '*.png' | while read -r file; do
+    find _static -name '*.png' | while read -r file; do
         echo "Converting $file to avif"
         avif_file="${file%.*}.avif"
         if [ ! -e "$avif_file" ]; then
