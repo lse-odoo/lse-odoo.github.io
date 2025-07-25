@@ -27,6 +27,7 @@ For this example we will use a template from the standard module `website_sale`:
             ...
         </t>
     </templates>
+
 Source: https://github.com/odoo/odoo/blob/d380a3a42dc39451fa26f161cc0b955b2f0098fd/addons/website_sale/static/src/js/product_configurator_dialog/product_configurator_dialog.xml
 
 
@@ -37,8 +38,8 @@ This one is pretty straightforward, you need to create a new module that overrid
 
 Xpath does not support direct text replacement. But fortunately there is some workaround.
 
-Using `t-esc` or `t-raw`
-------------------------
+Using `t-out` attribute
+-----------------------
 
 Don't forget to put the value in quotes, otherwise it will be interpreted as a variable and will cause an error if the variable does not exist.
 
@@ -48,10 +49,19 @@ Don't forget to put the value in quotes, otherwise it will be interpreted as a v
     <templates xml:space="preserve">
         <t t-inherit="sale.ProductConfiguratorDialog" t-inherit-mode="extension">
             <xpath expr="//button[@name='website_sale_product_configurator_continue_button']" position="attributes">
-                <attribute name="t-esc">"New Text"</attribute>
+                <attribute name="t-out">"New Text"</attribute>
             </xpath>
         </t>
     </templates>
+
+.. warning::
+
+    Using raw text like this is not recommended, as it will NOT be taken into account in translations.
+
+.. note::
+
+    `t-esc` and `t-raw` are both deprecated and should not be used anymore. See: 
+    https://www.odoo.com/documentation/18.0/developer/reference/frontend/qweb.html#deprecated-output-directives
 
 Overriding the whole element
 ----------------------------
