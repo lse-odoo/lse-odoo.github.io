@@ -1,0 +1,6 @@
+Technical
+=========
+
+.. toctree::
+
+    basics
