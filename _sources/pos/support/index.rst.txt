@@ -1,0 +1,6 @@
+Support
+=======
+
+.. toctree::
+
+    troubleshoot
